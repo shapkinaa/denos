@@ -23,9 +23,8 @@ apt-get install -y --no-install-recommends \
 apt-get install -y --no-install-recommends \
     network-manager net-tools wireless-tools wpagui \
     curl openssh-server openssh-client \
-    blackbox xserver-xorg-core xserver-xorg xinit xterm \
-    screenfetch screen lxterminal vim iputils-ping \
-    psmisc htop nmap wget git ca-certificates \
+    screen iputils-ping \
+    psmisc wget git ca-certificates \
     nano && \
 apt-get clean
 
